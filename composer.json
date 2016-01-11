@@ -1,0 +1,35 @@
+{
+  "name": "eugenebogun/yii2-authipay",
+  "description": "Yii2 payment component",
+  "keywords": [
+    "eugenebogun",
+    "yii2",
+    "extension",
+    "authipay"
+  ],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/EugeneBogun/yii2-authipay/issues",
+    "wiki": "https://github.com/EugeneBogun/yii2-authipay/wiki/",
+    "source": "https://github.com/EugeneBogun/yii2-authipay"
+  },
+  "authors": [
+    {
+      "name": "Eugene Bogun",
+      "email": "eugenebogun@gmail.com",
+      "homepage": "https://github.com/EugeneBogun"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0"
+  },
+  "require-dev": {
+    "yiisoft/yii2-codeception": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "wbraganca\\dynamicform\\": "src"
+    }
+  }
+}
